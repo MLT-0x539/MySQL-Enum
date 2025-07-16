@@ -2,9 +2,9 @@
 Tool to perform MySQL database mapping/enumartion via Blind SQLi + Boolean Enum
 
 # Usage:
- perl MySQL-Enum.pl -h [hostname] -u [url] [-q [query]]
+ `perl MySQL-Enum.pl -h [hostname] -u [url] [-q [query]]`
  
-**Example:**  perl sqli-p.pl -h www.target.tld -u http://www.target.tld/vuln.ext?input=24 -q "select system_user()"
+**Example:**  `perl sqli-p.pl -h www.target.tld -u http://www.target.tld/vuln.ext?input=24 -q "select system_user()"`
 
 # Overview:
 -  By default, this script will first determine username, version and database name before enumerating the information_schema information.
